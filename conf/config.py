@@ -9,12 +9,12 @@ You NEED to set the parameters in BASIC SETTINGS
 # ******************** BASIC SETTINGS ***************
 # These are the MUST BE SET parameters!
 
-CENTRAL_WALLET = '7YN41oFJHwty7yAqjExQFaDKb6KpnqwALH'	# local coin address where money goes
+CENTRAL_WALLET = ''	# local coin address where money goes
 
 COINDAEMON_TRUSTED_HOST = 'localhost'
 COINDAEMON_TRUSTED_PORT = 9772
-COINDAEMON_TRUSTED_USER = 'jkcrpc'
-COINDAEMON_TRUSTED_PASSWORD = 'BGutQNQPmUgytFMgoFWa7AwtcpyDUEaxKkCgVRC2kvGQ'
+COINDAEMON_TRUSTED_USER = ''
+COINDAEMON_TRUSTED_PASSWORD = ''
 
 # Coin Algorithm is the option used to determine the algortithm used by stratum
 # This currently works with POW and POS coins
@@ -103,9 +103,9 @@ DB_PGSQL_PASS = '**empty**'
 DB_PGSQL_SCHEMA = 'public'
 # MySQL
 DB_MYSQL_HOST = 'localhost'
-DB_MYSQL_DBNAME = 'jkcdb'
-DB_MYSQL_USER = 'root'
-DB_MYSQL_PASS = 'a1235813!'
+DB_MYSQL_DBNAME = ''
+DB_MYSQL_USER = ''
+DB_MYSQL_PASS = '!'
 
 
 # ******************** Adv. DB Settings *********************
